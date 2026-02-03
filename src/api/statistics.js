@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // 创建axios实例
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'http://demo01-222374-8-1400573097.sh.run.tcloudbase.com/api',
   timeout: 10000
 })
 
