@@ -9,7 +9,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://demo01-222374-8-1400573097.sh.run.tcloudbase.com',
+        target: env.VITE_API_URL|'http://demo01-222374-8-1400573097.sh.run.tcloudbase.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '/api')
       }
