@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'  // 正确导入 resolve 函数
 
 export default defineConfig({
+  const env = loadEnv(mode, process.cwd(), '')
   plugins: [vue()],
 
   server: {
