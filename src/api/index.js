@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://demo01-222374-8-1400573097.sh.run.tcloudbase.com/api'
+const API_BASE_URL = 'https://demo01-222374-8-1400573097.sh.run.tcloudbase.com/api'
 
 // 通用请求函数
 async function request(url, options = {}) {
